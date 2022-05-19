@@ -5,9 +5,13 @@
   "main": "index.js",
   "homepage":"https://Naveenguttedar.github.io/React-first-project",
   "scripts": {
+<<<<<<< HEAD
     "predeploy": "npm run build",
    "deploy": "gh-pages -d build",
     "build": "webpack --mode production",
+=======
+    "build": "webpack --mode development",
+>>>>>>> 06c34da88396e65c7bd9adec4e30ab4eb97c348c
     "start": "webpack-dev-server --open --mode development"
   },
   "keywords": [],
